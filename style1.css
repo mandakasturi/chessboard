@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chessboard{
+    height: 804px;
+    width: 804px;
+    border: 2px solid black;
+    margin-top: 70px;
+}
+.black{
+    background-color: black;
+    float: left;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+.white{
+    background-color: white;
+    float: left;
+    height: 100px;
+    width: 100px;
+    color: black;
+    text-align: center;
+    font-size: 55px;
+}
+div{
+    height: 100px;
+    width: 800px;
+}
